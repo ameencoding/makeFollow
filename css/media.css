@@ -1,0 +1,43 @@
+@media only screen and (max-width: 850px) {
+  main {
+    width: 768px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    width: 600px;
+  }
+
+  .signup--form,
+  .login--form {
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    width: 500px;
+  }
+  .people__near {
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  main {
+    width: 350px;
+  }
+  .form {
+    width: 100%;
+    flex-shrink: 0;
+  }
+}

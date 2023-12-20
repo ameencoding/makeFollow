@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>makeFollow</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <script src="./js/script.js" defer type="module"></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <ul>
+          <li class="btn btn__signup scale">
+            Sign Up
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#fcfcfc"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="bevel"
+            >
+              <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="8.5" cy="7" r="4"></circle>
+              <line x1="20" y1="8" x2="20" y2="14"></line>
+              <line x1="23" y1="11" x2="17" y2="11"></line>
+            </svg>
+          </li>
+          <li class="btn btn__login scale">
+            Login
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#fcfcfc"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="bevel"
+            >
+              <path
+                d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4M10 17l5-5-5-5M13.8 12H3"
+              />
+            </svg>
+          </li>
+        </ul>
+        <!-- user -->
+        <div class="wrapper">
+          <div class="notify">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#fcfcfc"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="bevel"
+            >
+              <path
+                d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0"
+              ></path>
+            </svg>
+            <span class="scale--0"></span>
+            <div class="form model scale--0">
+              <p>
+                <strong>Ahmed</strong>
+                Sent you a friend request.
+              </p>
+            </div>
+          </div>
+          <div class="user">
+            <div class="profile">
+              <img src="./img/default.png" alt="" />
+              <input accept=".jpg, .png, .jpeg" type="file" name="" id="" />
+              <p>Change</p>
+            </div>
+            <p class="name">admin</p>
+            <button class="btn btn__logout scale">Logout</button>
+          </div>
+        </div>
+      </header>
+      <!-- register -->
+      <form action="#" class="signup--form form scale--0">
+        <input type="text" name="" id="name" placeholder="Name" />
+        <input type="email" name="" id="email" placeholder="Email" />
+        <input type="password" name="" id="password" placeholder="Password" />
+        <button class="btn btn--signup scale">Register</button>
+      </form>
+      <!-- login -->
+      <div class="login--form form scale--0">
+        <input type="email" name="" id="login__email" placeholder="Email" />
+        <input
+          type="password"
+          name=""
+          id="login__password"
+          placeholder="Password"
+        />
+        <button class="btn btn--login scale">Login</button>
+      </div>
+      <!-- me -->
+      <div class="form me scale--0">
+        <!-- <img src="https://i.ibb.co/dbhPwHt/default.png" alt="" />
+        <div class="container">
+          <div class="followers">
+            <p>0</p>
+            <p>Followers</p>
+          </div>
+          <div class="following">
+            <p>0</p>
+            <p>Following</p>
+          </div>
+        </div> -->
+      </div>
+      <!-- people you may know-->
+      <div class="people scale--0">
+        <p class="people__title">People you may know...</p>
+        <div class="people__near">
+          <!-- <div class="form person">
+            <img src="https://i.ibb.co/dbhPwHt/default.png" alt="" />
+            <div class="person__name">Alex</div>
+            <div class="container">
+              <button class="btn btn--follow scale">Follow</button>
+              <button class="btn btn--decline scale">Decline</button>
+            </div>
+          </div> -->
+          <!-- <div class="form person">
+            <img src="https://i.ibb.co/dbhPwHt/default.png" alt="" />
+            <div class="container">
+              <button class="btn btn--follow scale">Follow</button>
+              <button class="btn btn--decline scale">Decline</button>
+            </div>
+          </div> -->
+          <!-- <div class="form person">
+            <img src="https://i.ibb.co/dbhPwHt/default.png" alt="" />
+            <div class="container">
+              <button class="btn btn--follow scale">Follow</button>
+              <button class="btn btn--decline scale">Decline</button>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
